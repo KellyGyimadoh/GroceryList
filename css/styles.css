@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(199, 224, 224);
+}
+.rows{
+    border: 1px solid rgb(121, 206, 192);
+    text-align: right;
+    display: grid;
+    grid-template-columns: 1fr  1fr ;
+    position: relative;
+    top:30px;
+    background-color: white;
+    
+}
+ .leftitem{
+text-align: left;
+padding: 10px;
+font-family: sans-serif,Verdana, Geneva, Tahoma, 'Times New Roman', Times, serif ;
+font-size: 20px;
+
+}
+
+
+ .rightitem{
+    text-align: right;
+ 
+    padding:10px;
+}
+
+.fa-solid:hover{
+    cursor: pointer;
+    
+}
+.fa-solid{
+    position: relative;
+    bottom:0px;
+}
+form #itemnbtn{
+    
+    width:100%;
+    position: relative;
+
+    top:10px;
+    display: grid;
+    grid-template-columns: 2fr 0.5fr;
+   
+}
+.container{
+  width:50%;
+  
+  height:100%;
+ border-radius: 10px 10px;
+  
+  margin: auto;
+}
+
+.header{
+   color: rgb(126, 109, 109), green, blue;
+    
+
+}
+.header h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+input[type="text"]{
+    height:30px;
+    border-radius: 10px 10px;
+    border-collapse: collapse;
+    border-color: aqua;
+
+}
+
+
+#clearButton {
+   margin: auto;
+   width:100%;
+   background:linear-gradient(90deg, rgb(231, 121, 77),rgb(247, 89, 168));
+   color: rgb(14, 11, 11);
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    
+}
+#clearButton:hover{
+cursor: pointer;
+background:linear-gradient(90deg, rgb(206, 17, 17),rgb(216, 36, 36));
+color: black;
+font-size: 25px;
+}
+
+#btn{
+    color:red;
+    background: linear-gradient(90deg,rgb(83, 207, 216),rgb(218, 232, 235));
+    border-radius: 10px;
+    padding-left:10px ;
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+}
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;}
