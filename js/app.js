@@ -45,7 +45,7 @@ if (clearButton && clearButton.style.display === "none") {
 
 
 function createElement(item){
-    let del="<i class='fa-solid fa-trash deleteitem 'style='font-size:15px;color:red'>delete</i>";
+    let del="<i class='fa-solid fa-trash deleteitem 'style='font-size:15px;color:red'></i>";
     let row= "<div class='rows'><span class='leftitem'>"+item+"</span><span class='rightitem'><input type='checkbox' value='"+item+"'><div class='tooltip'>"+del+"<span class='tooltiptext'>delete item</span></div></span></div>"
     itemlist.style.display="block"; 
     itemlist.insertAdjacentHTML("beforeend",row);
